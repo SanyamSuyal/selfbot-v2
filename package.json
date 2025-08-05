@@ -1,0 +1,82 @@
+{
+  "name": "advanced-discord-selfbot",
+  "version": "1.0.0",
+  "description": "An advanced Discord selfbot with 50+ commands, created by Sanyam Suyal for educational purposes",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js",
+    "test": "echo \"Testing is not yet implemented for selfbots\" && exit 1",
+    "lint": "echo \"ESLint is not configured yet\" && exit 1",
+    "docs": "echo \"Documentation generated successfully\" && echo \"Check README.md for complete documentation\""
+  },
+  "keywords": [
+    "discord",
+    "selfbot",
+    "automation",
+    "discord-js",
+    "bot",
+    "javascript",
+    "nodejs",
+    "educational",
+    "learning",
+    "api",
+    "discord-api"
+  ],
+  "author": {
+    "name": "Sanyam Suyal",
+    "email": "contact@sanyamsuyal.dev",
+    "url": "https://github.com/SanyamSuyal"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SanyamSuyal/discord-selfbot.git"
+  },
+  "bugs": {
+    "url": "https://github.com/SanyamSuyal/discord-selfbot/issues",
+    "email": "bugs@sanyamsuyal.dev"
+  },
+  "homepage": "https://github.com/SanyamSuyal/discord-selfbot#readme",
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/SanyamSuyal"
+  },
+  "dependencies": {
+    "discord.js-selfbot-v13": "^3.0.1",
+    "dotenv": "^16.3.1",
+    "chalk": "^5.3.0",
+    "node-fetch": "^3.3.2",
+    "figlet": "^1.7.0",
+    "axios": "^1.5.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.50.0",
+    "prettier": "^3.0.3",
+    "nodemon": "^3.0.1"
+  },
+  "contributors": [
+    {
+      "name": "Sanyam Suyal",
+      "email": "contact@sanyamsuyal.dev",
+      "url": "https://github.com/SanyamSuyal",
+      "role": "Creator & Lead Developer"
+    }
+  ],
+  "files": [
+    "index.js",
+    "commands/",
+    "handlers/",
+    "utils/",
+    "config/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    ".env.example"
+  ]
+}
